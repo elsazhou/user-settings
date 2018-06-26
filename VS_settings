@@ -1,0 +1,28 @@
+// VS settings
+{
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+
+    // "editor.fontSize": 18,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [145],
+    "search.exclude": {
+        "tmp": true,
+        "public": true,
+        "log": true,
+        "build": true,
+        "coverage": true,
+        "node_modules": true,
+        "story": true,
+        "storybook-static": true,
+        ".transpiled": true
+    },
+    "window.title": "${activeEditorLong}${separator}${rootName}",
+    "window.zoomLevel": 2,
+    "extensions.ignoreRecommendations": false,
+    "sublimeTextKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "git.confirmSync": false
+}
